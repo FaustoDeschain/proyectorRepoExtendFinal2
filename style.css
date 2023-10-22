@@ -1,0 +1,562 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=EB+Garamond&family=Oswald:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	
+
+}
+
+header{
+    margin: 0 10% 0 10%;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+}
+
+body{
+	
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+.logo{
+
+	background: #171C8F;
+	width: 100%;
+	height: 120px;
+	border: solid 2px ;
+	margin:  0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.logo img{
+	width: 140px;
+}
+
+/*@supports(object-fit: cover){
+    .logo img{
+      height: 100%;
+      object-fit: cover;
+      object-position: 0 0px;*/
+    
+.contenedorIngreso{
+	
+    margin: 0 10px 0 10px;
+    
+}
+
+.nav {
+  margin: 15px 30px 15px 30px;
+  padding: 4px 5px 0 5px;
+  min-width: 130px;
+  height: 40px;
+  color:#02cbf0;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 0 15px 0 15px ;
+  border: solid 2px navy;
+  /*background-size: 120% auto;*/
+  background:#171C8F;
+ /* background-image: linear-gradient(315deg,  #e06287 5%,  #171C8F 75%);*/
+ transition: 0.5s
+}  
+
+.nav:hover {
+    color: #e06287;
+    
+  }
+  .nav:active {
+    top: 5px;
+  }
+
+.contenedorRegistro{
+	background: #e06287;
+	margin-top: 5px;
+}
+
+.Registro {
+    margin: 10px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 0 15px 0 15px ;
+    border: none;
+    background-size: 120% auto;
+    
+  }
+  .Registro:hover {
+    background-position: right center;
+  }
+  .Registro:active {
+    top: 2px;
+  }
+
+.cuerpo{
+    
+    text-align: left;
+    color:  navy;
+   
+    font-family: 'EB Garamond', serif;
+   
+    font-style: italic;
+    font-weight: bold;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 0 10px;
+    padding: 15px 0 15px 0;
+    }
+
+
+.cuerpo>div>p{
+	
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.formulario {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        width: 70%;
+        padding: 2%;
+        margin: 5px 15% 0 15%;
+    }
+
+
+
+
+
+
+
+
+
+
+.nosotros{
+    display: flex;
+    position: relative;
+    width: 78%;
+    margin: 5px 11% 0 11%;
+  
+}
+
+
+
+
+.productosDefinicion>p{
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    width: 78%;
+    margin: 5px 11% 0 11%;
+  }
+.producto{
+    border:solid 1px #171C8F ;
+    border-radius: 0 60px 0 60px;
+    margin: 10px;
+    padding: 10px;
+}
+.producto>h2{
+    font-family:  'Oswald', sans-serif;
+}
+.producto>p{
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    }
+.productosRow{
+    display: flex;
+   flex-direction: column;
+   
+}
+
+
+
+
+
+.gente{
+position: relative;
+border:solid 2px #171C8F;
+border-radius: 60px;
+margin: 10px 15px 20px 10px;
+width: 50%;
+
+font-family: 'EB Garamond', serif;
+text-align: center;
+padding: 10px 10px 10px 10px;
+color:#171C8F;
+border-radius: 90px;
+/*background:   #171C8F ;*/
+/*background-image: linear-gradient(315deg, #171C8F  5%,  #e06287 75%);*/
+transition: 0.5s;
+}
+
+.gente:hover{
+    color:tomato;
+    border-radius: 90px;
+}
+
+
+
+.imgEquipo{
+    width: 80%;
+    margin-top: 20px;
+    
+   
+    }
+
+.imgProyecto{
+    width: 60%
+
+}
+
+.proyecto{
+position: relative;
+border:solid 2px #171C8F;
+border-radius: 90px;
+font-family: 'EB Garamond', serif;
+margin: 10px 10px 10px 15px;
+width: 50%;
+color:#171C8F;
+/*background:   #171C8F ;*/
+padding: 15px;
+
+transition: 0.5s;
+}
+
+
+.proyecto:hover{
+    color:tomato;
+    border-radius: 90px;
+}
+
+
+.contenedorContacto{
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+    flex-direction: column;
+    border-radius: 0 60px 0 60px;
+     border:solid 1px #171C8F;
+    
+}
+
+
+.Contacto{
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
+
+
+
+
+section{
+  
+    display: flex;/*para poder ubicarlo como quiero*/
+    width: 100%;
+    justify-content: center; /*para centrarlo horizontalmente*/
+    align-items: top;/*Una vez twngo establecido el
+                         height lo centro verticaLmente  */
+    
+    min-height: 80vh;/* Con min-heigt y utilizando el viewport height
+                         hago que tenga el alto de toda la pantalla*/
+
+  
+
+
+}
+
+
+
+.form-box{
+  display: flex  ;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 400px;
+  padding:10px; /*para dar mas distancia entre el contenido y el borde*/
+  background-color:#171C8F; /*para hacer el fondo transparente*/
+  border:2px solid rgba(255,255,255,0.5);
+  border-radius:0  60px 0 60px; /*para redondear los bordes*/
+    
+}
+
+.input-box{
+  position: relative;/* para poder darle posicion a los elementos de adentro de las cajas*/
+   font-family:  'Oswald', sans-serif;
+  margin: 30px 0; /*para darle distancia entre elementos verticalmente*/
+  width: 350px;
+  border-bottom: 2px solid white;
+  
+}
+.input-box label{
+  position:absolute;/* para poder poner el texto dentro del input*/
+  top:-10px; /*lo ubica verticalmente respecto del relative mas cercano*/
+  left:5px; /*lo ubica del borde izquierdo del relative la cantidad que indica  */
+  font-size:20px;
+  color:white;
+  pointer-events: none; 
+  transition:0.5s;
+}   
+input:focus ~ label, input:focus ~ valid{
+   top:-25px; /*para que cuando lo seleccionemos se mueva*/
+}
+.input-box input{
+  width:100%;
+  height:50px;
+  border:none;
+  outline:none;
+  color:white;
+  font-family: 'EB Garamond', serif;
+
+  background:transparent;
+  
+}
+.input-box img{/*para ubicar el icono*/
+  position:absolute;
+  right:10px;
+  top:15px;
+  filter:invert(1); /*para modificar una imagen se usa filter, como su color es negro el invert es para ponerlo blanco      */
+  
+}
+.forget{
+  display:flex;
+  color:white;
+  font-family: 'EB Garamond', serif;
+  
+  margin:-5px 0 30px;/*el primer valor es para acercarlo al input el tercero es para separarlo de lo de abajo*/
+  justify-content:center;
+}
+.forget a{
+  text-decoration:none;
+  color: #02cbf0;
+  font-family: 'EB Garamond', serif;
+   margin-left:10px;
+  font-weight:bold;
+}
+.forget a:hover{
+   color: #e06287;
+  
+}
+
+.register{
+   display:flex;
+  color:white;
+  font-family: 'EB Garamond', serif;
+  margin: 10px 10px;/*el primer valor es para acercarlo al input el tercero es para separarlo de lo de abajo*/
+  justify-content:center;
+}
+.register a{
+  text-decoration:none;
+  color: #02cbf0;
+   margin-left:10px;
+  font-weight:bold;
+  transition: 0.4s;
+
+}
+.register a:hover{
+  color:  #e06287;
+}
+
+.boton{
+  width:80%;
+  height:40px;
+  background-color:white;
+  font-family:  'Oswald', sans-serif;
+
+  border-radius:0 60px 0 60px;
+  border:none;
+  outline:none;
+  
+  font-size:1.2em;
+  font-weight:700;
+  
+}
+
+
+h2{
+  font-size: 2em; /*agrandar el titulo*/
+  color:  #02cbf0 ;
+  font-family:  'Oswald', sans-serif;
+  text-align: center; /*centrar hotizontalmente el texto*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:672px){
+   
+
+    body{
+    	margin: 0;
+    	padding: 0;
+    }
+
+    header{
+    	
+        margin: 0;
+    }
+
+    h2{
+    
+     font-size: 5vw;
+    }
+
+    p{
+      
+        font-size: 3vw;
+    }
+
+    footer{
+        
+        color: #171C8F;
+        text-align: center;
+        bottom: 0;
+        padding: 0;
+        height: 210px;
+        margin: 0 10px 0 10px;
+    }
+
+
+    .nav {
+      
+      min-width: 80px;
+      margin: 0 10px 10px 0;
+      padding: 4px 1px 0 1px;
+     }  
+
+
+    
+
+     
+
+
+    .redsoc{
+        
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .redsoc a{
+        
+        margin: 10px 6px;
+        font-size: 2vw;
+    }
+
+    .redsoc:hover{
+        color: #999999;
+
+    }
+
+    .formulario {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        width: 90%;
+        padding: 2%;
+        margin: 5px 5% 0 5%;
+    }
+
+
+
+    .gente,.proyecto{
+        width: 100%;
+        margin: 10px 10px  0 0;
+        background: ;
+     }
+
+
+    .nosotros{
+    flex-direction: column;
+    display: flex;
+    width: 90%;
+    margin: 5px 5% 0 5%;
+    }
+
+    label, input{
+        font-size: 2vw;
+    }
+
+    input[type=text],input[type=password],
+    input[type=date],input[type=email],
+    input[type=number],input[type=url],input[type=text],
+    input[type=text],input[type=textArea], select{
+
+        width: 70%;
+        padding: 1vw;
+        margin: 1vw;
+        display: inline-block;
+        border: 1vw;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
+}
+
