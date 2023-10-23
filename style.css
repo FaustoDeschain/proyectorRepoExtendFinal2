@@ -558,5 +558,10 @@ h2{
     input[type=submit]:hover {
     background-color: #45a049;
     }
+
+.productos row{
+   .margin-top:0;
+	
+}
 }
 
